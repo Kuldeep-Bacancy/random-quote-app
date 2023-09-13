@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
-RandomQuoteContent
-import {RandomQuoteContextProvider} from '../context/RandomQuoteContext'
+import { RandomQuoteContextProvider } from '../context/RandomQuoteContext'
 import RandomQuoteContent from './RandomQuoteContent';
 
 const RandomQuote = () => {
