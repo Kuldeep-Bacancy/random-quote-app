@@ -7,7 +7,6 @@ import { baseURL, config, options } from '../config/config'
 function RandomQuoteContent() {
   const { quote, loading, category, setQuote, setLoading, setCategory } = useRandom();
 
-  console.log("baseUrl", baseURL)
   const generateQuote = async () => {
     try {
       setLoading(true);
